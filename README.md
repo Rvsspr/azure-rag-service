@@ -2,6 +2,17 @@
 
 Production-grade Retrieval-Augmented Generation (RAG) service built on Azure OpenAI.
 
+## Reliability & Safety
+- API key authentication
+- Rate limiting to control inference cost
+- Confidence-based fallback to reduce hallucinations
+- Offline and online evaluation of answer faithfulness
+
+## Monitoring
+- Latency tracking
+- Fallback rate
+- Token usage awareness
+
 ## Features
 - Document ingestion (PDF, TXT)
 - Embeddings + vector search
